@@ -1,3 +1,5 @@
+local success, resultOrError = pcall(function()
+
 local epikservertrollgui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
@@ -5528,3 +5530,5 @@ m.Parent = Workspace
 m.Text = "Remade by iXayemiz/YepImSirPwnsAlot"
 wait(5)
 m:Destroy()
+return "Data Loaded!"
+end)
